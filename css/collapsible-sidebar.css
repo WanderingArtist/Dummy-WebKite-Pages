@@ -1,0 +1,28 @@
+/*COLLAPSIBLE SIDEBAR*/
+/* Custom Filter Layout */
+#prefSearch {display:none;} /* hide search */
+#piki_prefSort .collapseable {
+  padding:0;
+  }
+#piki_prefSort .collapseable .section {
+  display:none;
+  margin-bottom:15px;
+  overflow:visible;
+  }
+
+#piki_prefSort .collapseable h4 {
+  padding:6px 9px 6px 23px;
+  margin:0px -3px 3px;
+  cursor:pointer;
+  border:none;
+  letter-spacing:0;
+  position:relative;
+  width:194px;
+  }
+#piki_prefSort .collapseable .collapse-toggle {
+  position:absolute;
+  top:9px;
+  left:6px;
+  width:10px;
+  height:10px;
+  }
